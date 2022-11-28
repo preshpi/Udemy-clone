@@ -3,25 +3,30 @@
     padding:0;
     box-sizing: border-box;
     background:#ffff;
+    font-family: Georgia, Times, 'Times New Roman', serif
 }
 
 nav{
     width:100%;
-    height: 40px;
+    height: 70px;
+    top:0;
     padding: 15px 15px;
     box-shadow: 20px;
     display: flex;
+    justify-content: space-between;
+    box-shadow: 50px;
+    position: fixed;
     gap:5px;
 }
 
 .logo{
+    padding: 10px 10px;
     width: 91px;
     height: 31px;
 }
 
 .category{
-    margin-top: 5px;
-    margin: 10px;
+    padding: 10px 10px;
     cursor: pointer;
 }
 
@@ -49,12 +54,200 @@ ul li ul li a {
     display:block !important;
 } 
 
+a{
+    text-decoration: none;
+    list-style: none;
+    color:#000;
+}
+
 .cat{
-    background-color: rgb(32, 30, 30);
+    width: 350px;
+    padding: 20px;
+    padding: 10px 10px 10px 10px;
+    height: auto;
 }
 
 .cat li{
-    padding: 10px;
-    margin: 5px;
+    padding: 5px;
+    width: 260px;
     gap:20px;
+}
+
+input{
+    border:none;
+    margin: 5px;
+    width: 500px;
+    height: 14px;
+    padding: 5px 5px 5px 5px;
+    outline: none;
+    display:inline-flex;
+}
+
+.input{
+    margin-top: 5px;
+    height: 34px;
+    border-radius:20px;
+    border: 1px solid black;
+    padding: 5px 5px;
+    width: 500px;
+    display:inline-flex;
+}
+
+.text1{
+    padding: 10px 10px;
+    color:#000;
+}
+
+.text2{
+    padding: 10px 10px;
+    color:#000;
+}
+
+.cart{
+    padding: 10px 10px;
+}
+
+.btn{
+    padding: 10px 10px 23px 10px;
+    text-decoration: none;
+    align-items: center;
+    text-align:center;
+    border:1px solid black;
+    margin:5px;
+}
+
+.btn2{
+    background-color: #000;
+    border:1px solid black;
+    color:#fff;
+    text-decoration: none;
+    padding: 10px 10px 23px 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.btn3{
+    padding: 10px 5px 25px 5px;
+    text-decoration: none;
+    align-items: center;
+    text-align:center;
+    border:1px solid black;
+    margin:3px; 
+}
+
+.hero{
+    background-image: url('https://res.cloudinary.com/dpokiomqq/image/upload/v1669635902/1ebc154f-cb67-46cc-9efa-91fa3cb5c01e_xhqsqf.jpg');
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin-top: 40px;
+}
+
+
+
+.sec-1{
+    padding: 40px;
+}
+
+.sec-text-1{
+    color:#000;
+    font-size: 24px;
+    font-weight: 700px;
+    line-height: 25px;
+}
+
+.sec-text-2{
+    color:#464649;
+    line-height: 20px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.sec-list{
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec{
+    color:#6B6E73;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sec:hover{
+    color:#000; 
+}
+
+.sec-py{
+    color:#000;
+}
+
+.python-courses{
+    border: 1.5px solid #D9DDE0;
+    padding: 20px;
+    height: 600px;
+    margin-top: 10px;
+}
+
+.py-text1{
+    color: #1c1d1f;
+    font-size: 24px;
+}
+
+.py-text2{
+    margin-top: 10px;
+    line-height:25px;
+    width:700px;
+}
+
+.py-btn{
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    border:1px solid black;
+    padding: 10px;
+}
+
+.py-btn:hover{
+    background-color: #f4f5f6;
+}
+
+.cat-img{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;  
+    gap:5px;
+    justify-content: space-between;
+}
+
+.py-cards{
+    width: 232px;
+    height: 234px;
+}
+
+.py-image{
+    width: 248px;
+    border:1px solid #D9DDE0;
+}
+
+.py-text3{
+    margin-top: 5px;
+}
+
+.py-text4{
+    margin-top: 8px;
+    font-size: 12px;
+    color:#6B6E73;
+}
+
+.footer{
+    background-color: #1C1C1E;
+}
+
+.footer .section{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    background-color: #1C1C1E;
 }
